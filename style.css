@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.list-group-item-action {
+    cursor: pointer;
+}
+
+.card {
+    text-align: center;
+    padding: 20px;
+}
+
+.card-text {
+    font-size: 2em;
+}
+
+.ui-autocomplete {
+    z-index: 1050; /* Ensure it appears above other elements */
+}
+
+@media print {
+    /* Hide elements with Bootstrap classes */
+    .no-print {
+        display: none !important;
+    }
+}
